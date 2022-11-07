@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+  --background-clr : #eeeeee;
+  --button-clr: #33a0ff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+body{
+  background-color: var(--background-clr);
+  font-family: 'Roboto', sans-serif;
+
+}
+.add_product{
+  padding: 30px;
+}
+.add_product .btn{
+  display: flex;
+  position: relative;
+}
+.btn button:nth-child(1){
+  background-color: var(--button-clr);
+  padding: 5px 15px;
+  border:none;
+  color:white;
+  transition: 0.25s;
+}
+.btn button:nth-child(1) i {
+  padding-right: 10px;
+}
+.btn button:nth-child(2):hover,button:nth-child(1):hover{
+  opacity: .8;
+}
+.btn button:nth-child(2){
+  padding: 0 10px;
+  background-color: var(--button-clr);
+  border:none;
+  color: white;
+  transition: 0.35s;
+
+}
+.dropdown{
+  background-color: white;
+  position: absolute;
+  padding: 10px;
+  box-shadow: 0 5px 10px #00000078;
+  margin-top: 20px;
+  transform: translate(-20px,0);
+  transition: 0.25s;
+  display: none;
+}
+.dropdown ul li{
+  list-style: none;
+}
+.dropdown ul li a{
+  text-decoration: none;
+  color: black;
+}
+.hidden{
+  display: block;
+}

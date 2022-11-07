@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <p>sản phẩm</p>
-  <div class="">Đây là sản phẩmphẩm</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="add_product">
+      <div class="btn">
+        <button><i class="fas fa-plus"></i>Thêm sản phẩm</button>
+        <button onclick="document.querySelector('.dropdown').classList.toggle('hidden')"><i class="fas fa-caret-down"></i></button>
+      </div>
+      <div>
+        <div class="dropdown">
+          <ul>
+            <li><a href="">Thêm sản phẩm thường</a></li>
+            <li><a href="">Thêm sản phẩm combo</a></li>
+            <li><a href="">Thêm sản phẩm có đơn vị quy đổi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
