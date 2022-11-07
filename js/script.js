@@ -17,7 +17,6 @@ const app = {
         itemUser.onclick = () =>{
                 const listUser = $('.header__list-user')
                 listUser.classList.toggle('hidden')
-
         }
        
 
