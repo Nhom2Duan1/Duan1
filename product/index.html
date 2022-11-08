@@ -15,7 +15,11 @@
     <div class="add_product">
       <div class="btn">
         <button><i class="fas fa-plus"></i>Thêm sản phẩm</button>
-        <button onclick="document.querySelector('.dropdown').classList.toggle('hidden')"><i class="fas fa-caret-down"></i></button>
+        <button
+          onclick="document.querySelector('.dropdown').classList.toggle('hidden')"
+        >
+          <i class="fas fa-caret-down"></i>
+        </button>
       </div>
       <div>
         <div class="dropdown">
@@ -25,6 +29,119 @@
             <li><a href="">Thêm sản phẩm có đơn vị quy đổi</a></li>
           </ul>
         </div>
+      </div>
+      <div class="table_add">
+        <div class="filter">
+          <div class="search">
+            <input type="text" placeholder="search..." />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <div class="category">
+            <h3 onclick="document.getElementById('select1').classList.toggle('none')">Loại sản phẩm</h3>
+            <select name="" id="select1" value="" class="">
+              <option value="">Áo vest</option>
+              <option value="">Áo khoác</option>
+            </select>
+          </div>
+          <div class="category">
+            <h3 onclick="document.getElementById('select2').classList.toggle('none')">Trạng thái</h3>
+            <select name="" id="select2" value="" class="">
+              <option value="">Đang giao dịch</option>
+              <option value="">Ngừng giao dịch</option>
+            </select>
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>Ảnh</td>
+              <td>Tên sản phẩm</td>
+              <td>Có thể bán</td>
+              <td>Tồn kho</td>
+              <td>Ngày khởi tạo</td>
+              <td>Giá bán lẻ</td>
+              <td>Giá nhập</td>
+              <td>Giá bán buôn</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdpcmx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+              <td>100</td>
+              <td>100</td>
+              <td>12/8/2022</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://images.unsplash.com/photo-1484081064812-86e90e107fa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+              <td>100</td>
+              <td>100</td>
+              <td>12/8/2022</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://images.unsplash.com/photo-1485199692108-c3b5069de6a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  alt=""
+                />
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+              <td>100</td>
+              <td>100</td>
+              <td>12/8/2022</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://images.unsplash.com/photo-1484329081568-bed9ba42793d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+                  alt=""
+                />
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+              <td>100</td>
+              <td>100</td>
+              <td>12/8/2022</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdpcmx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+              <td>100</td>
+              <td>100</td>
+              <td>12/8/2022</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </body>

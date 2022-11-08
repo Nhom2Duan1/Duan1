@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-:root{
-  --background-clr : #eeeeee;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --background-clr: #eeeeee;
   --button-clr: #33a0ff;
 }
 *,
@@ -39,56 +39,133 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
-body{
+body {
   background-color: var(--background-clr);
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
-.add_product{
+.add_product {
   padding: 30px;
 }
-.add_product .btn{
+.add_product .btn {
   display: flex;
   position: relative;
 }
-.btn button:nth-child(1){
+.btn button:nth-child(1) {
   background-color: var(--button-clr);
   padding: 5px 15px;
-  border:none;
-  color:white;
+  border: none;
+  color: white;
   transition: 0.25s;
 }
 .btn button:nth-child(1) i {
   padding-right: 10px;
 }
-.btn button:nth-child(2):hover,button:nth-child(1):hover{
-  opacity: .8;
+.btn button:nth-child(2):hover,
+button:nth-child(1):hover {
+  opacity: 0.8;
 }
-.btn button:nth-child(2){
+.btn button:nth-child(2) {
   padding: 0 10px;
   background-color: var(--button-clr);
-  border:none;
+  border: none;
   color: white;
   transition: 0.35s;
-
 }
-.dropdown{
+.dropdown {
   background-color: white;
   position: absolute;
   padding: 10px;
   box-shadow: 0 5px 10px #00000078;
   margin-top: 20px;
-  transform: translate(-20px,0);
+  transform: translate(-20px, 0);
   transition: 0.25s;
   display: none;
+  z-index: 1;
 }
-.dropdown ul li{
+.dropdown ul li {
   list-style: none;
 }
-.dropdown ul li a{
+.dropdown ul li a {
   text-decoration: none;
   color: black;
 }
-.hidden{
+.hidden {
   display: block;
+}
+.table_add {
+  margin-top: 20px;
+  background-color: #fff;
+  position: relative;
+  height: 70vh;
+  box-shadow: 0 5px 10px #00000033;
+}
+.table_add .search {
+  padding: 10px;
+}
+.search input {
+  border: var(--button-clr) 1px solid;
+  padding: 2px 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+}
+.search button {
+  border: none;
+  cursor: pointer;
+  width: 20px;
+  background-color: transparent;
+  transform: translateX(-30px);
+}
+.search button i {
+  color: rgb(163, 168, 175);
+}
+.table_add table thead,
+tr,
+td {
+  border: none;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+table {
+  position: absolute;
+  width: 100%;
+  border: #e8eaeb 1px solid;
+}
+table {
+  background-color: #e8eaeb;
+  text-align: center;
+}
+table tbody {
+  background-color: #fff;
+}
+table tbody tr td img {
+  width: 100px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  row-gap: 30px;
+}
+.category {
+  width: 200px;
+  margin: 10px 0;
+  box-shadow: 0 3px 5px #00000033;
+  border: #eeeeee 1px solid;
+  border-radius: 5px;
+}
+.category h3{
+  padding: 5px 10px;
+}
+#select2,#select1{
+  /* display: none; */
+  width: 100%;
+  border:none;
+  padding: 0 5px;
+}
+.none{
+  display: none;
 }
