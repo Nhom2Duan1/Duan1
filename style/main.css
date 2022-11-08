@@ -155,9 +155,8 @@ li{
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  position: relative;
   box-shadow:  3px 3px 7px #979696;
-
+  z-index: 1;
   
 }
 .header--title{
@@ -180,6 +179,9 @@ li{
   padding: 16px 13px;
   cursor: pointer;
 }
+.item-user{
+  position: relative;
+}
 .header--item div:last-child{
   color: #0088ff;
 }
@@ -196,7 +198,7 @@ li{
   position: fixed;
   background-color: #ffffff;
   width: 230px;
-  top:6%;
+  top:9%;
   right: 7%;
   z-index: 100;
  
