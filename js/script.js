@@ -93,7 +93,7 @@ const app = {
    }
 }
 app.start();
-window.addEventListener('beforeunload',(e)=>{
-  e.preventDefault();
-  e.returnValue="Bạn chắc chắn muốn đóng tab hiện tại"; 
-})
+// window.addEventListener('beforeunload',(e)=>{
+//   e.preventDefault();
+//   e.returnValue="Bạn chắc chắn muốn đóng tab hiện tại"; 
+// })
