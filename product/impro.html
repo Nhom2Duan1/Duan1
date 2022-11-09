@@ -33,90 +33,101 @@
         <div class="info_Supplier">
           <h3>Thông tin sản phẩm</h3>
           <form action="">
-            <input class="focus" type="text" placeholder="Tìm kiếm sản phẩm theo tên,mã..." />
+            <input
+              class="focus"
+              type="text"
+              placeholder="Tìm kiếm sản phẩm theo tên,mã..."
+            />
             <button><i class="fas fa-search"></i></button>
           </form>
         </div>
         <!-- end thông tin sản phẩm -->
-        <!-- Form thêm sản phẩm -->
-        <div class="add_product">
-          <table>
-            <thead>
-              <tr>
-                <td>Mã sản phẩm</td>
-                <td>Tên sản phẩm</td>
-                <td>Đơn vị</td>
-                <td>Số lượng</td>
-                <td>Thành tiền</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>mv234</td>
-                <td>Áo khoác đầm dáng xòe nút bọc 2in1 SID55675 - Hồng</td>
-                <td>...</td>
-                <td>100</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <td>mv234</td>
-                <td>Áo khoác đầm dáng xòe nút bọc 2in1 SID55675 - Hồng</td>
-                <td>...</td>
-                <td>100</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <td>mv234</td>
-                <td>Áo khoác đầm dáng xòe nút bọc 2in1 SID55675 - Hồng</td>
-                <td>...</td>
-                <td>100</td>
-                <td>100</td>
-              </tr>
-              <tr>
-                <td>mv234</td>
-                <td>Áo khoác đầm dáng xòe nút bọc 2in1 SID55675 - Hồng</td>
-                <td>...</td>
-                <td>100</td>
-                <td>100</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <!-- end form thêm sản phẩm -->
-        <!-- payment -->
-        <div class="payment">
-          <div class="paymentIcon">
-            <i class="fas fa-money-check-alt"></i>
-            <span>Thanh Toán</span>
+        <form action="">
+          <!-- Form thêm sản phẩm -->
+          <div class="add_product">
+            <table>
+              <thead>
+                <tr>
+                  <td>Mã sản phẩm</td>
+                  <td>Tên sản phẩm</td>
+                  <td>Đơn vị</td>
+                  <td>Số lượng</td>
+                  <td>Thành tiền</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>mv234</td>
+                  <td>Áo khoác đầm dáng xòe nút bọc 2in1 SID55675 - Hồng</td>
+                  <td>...</td>
+                  <td>100</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>mv234</td>
+                  <td>Áo khoác đầm dáng xòe nút bọc 2in1 SID55675 - Hồng</td>
+                  <td>...</td>
+                  <td>100</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>mv234</td>
+                  <td>Áo khoác đầm dáng xòe nút bọc 2in1 SID55675 - Hồng</td>
+                  <td>...</td>
+                  <td>100</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>mv234</td>
+                  <td>Áo khoác đầm dáng xòe nút bọc 2in1 SID55675 - Hồng</td>
+                  <td>...</td>
+                  <td>100</td>
+                  <td>100</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="check_input-payment">
-            <input
-              onclick="checkpay()"
-              type="checkbox"
-              name=""
-              id="check_pay"
-            />
-            <span>Thanh toán với nhà cung cấp</span>
-          </div>
-          <div class="payments">
-            <div class="payments_boxright">
-              <p class="payments_title">Hình thức thanh toán</p>
-              <select name="" id="">
-                <option value="">Tiền mặt</option>
-                <option value="">Quẹt thẻ</option>
-                <option value="">Chuyển khoản</option>
-                <option value="">COD</option>
-              </select>
-              <p class="payments_title">Tham chiếu</p>
-              <input type="number" />
+          <!-- end form thêm sản phẩm -->
+          <!-- payment -->
+          <div class="payment">
+            <div class="paymentIcon">
+              <i class="fas fa-money-check-alt"></i>
+              <span>Thanh Toán</span>
             </div>
-            <div class="payments_boxleft">
-              <p class="payments_title">Số tiền thanh toán</p>
-              <input type="number" />
+            <div class="check_input-payment">
+              <input
+                onclick="checkpay()"
+                type="checkbox"
+                name=""
+                id="check_pay"
+              />
+              <span>Thanh toán với nhà cung cấp</span>
+            </div>
+            <div class="payments">
+              <div class="payments_boxright">
+                <p class="payments_title">Hình thức thanh toán</p>
+                <select name="" id="">
+                  <option value="">Tiền mặt</option>
+                  <option value="">Quẹt thẻ</option>
+                  <option value="">Chuyển khoản</option>
+                  <option value="">COD</option>
+                </select>
+                <p class="payments_title">Tham chiếu</p>
+                <input type="number" />
+              </div>
+              <div class="payments_boxleft">
+                <p class="payments_title">Số tiền thanh toán</p>
+                <input type="number" />
+              </div>
             </div>
           </div>
-        </div>
-        <!-- end payment -->
+          <!-- end payment -->
+          <!-- btn Đặt hàng -->
+          <div class="btn_order">
+            <button class="">Đặt hàng</button>
+          </div>
+          <!-- end btn đặt hàng -->
+        </form>
       </div>
       <!-- end box left -->
       <!-- box right -->
@@ -126,6 +137,21 @@
           <form action="" class="infor_Order-form">
             <p>Mã đơn nhập hàng</p>
             <input type="text" />
+            <p>Chi nhánh</p>
+            <select name="" id="" class="opsiton1">
+              <option value="">Chi nhánh mặc định</option>
+            </select>
+            <p>Chính sách giá</p>
+            <select name="" id="" class="opsiton2">
+              <option value="">Giá nhập</option>
+            </select>
+            <div class="seemore">
+              <p>Tham chiếu</p>
+              <input type="text" />
+              <p>Ngày giao hẹn</p>
+              <input type="date" />
+            </div>
+            <div onclick="seemoreclick()" class="text_seemore">Xem thêm</div>
           </form>
         </div>
       </div>
