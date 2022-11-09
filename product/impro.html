@@ -21,6 +21,7 @@
           <h3>Thông tin nhà cung cấp</h3>
           <form action="">
             <input
+              class="focus"
               type="text"
               placeholder="Tìm kiếm nhà cung cấp theo SĐT,tên,mã nhà cung cấp..."
             />
@@ -32,14 +33,14 @@
         <div class="info_Supplier">
           <h3>Thông tin sản phẩm</h3>
           <form action="">
-            <input type="text" placeholder="Tìm kiếm sản phẩm theo tên,mã..." />
+            <input class="focus" type="text" placeholder="Tìm kiếm sản phẩm theo tên,mã..." />
             <button><i class="fas fa-search"></i></button>
           </form>
         </div>
         <!-- end thông tin sản phẩm -->
         <!-- Form thêm sản phẩm -->
         <div class="add_product">
-          <table >
+          <table>
             <thead>
               <tr>
                 <td>Mã sản phẩm</td>
@@ -89,7 +90,12 @@
             <span>Thanh Toán</span>
           </div>
           <div class="check_input-payment">
-            <input onclick="checkpay()" type="checkbox" name="" id="check_pay" >
+            <input
+              onclick="checkpay()"
+              type="checkbox"
+              name=""
+              id="check_pay"
+            />
             <span>Thanh toán với nhà cung cấp</span>
           </div>
           <div class="payments">
@@ -100,13 +106,13 @@
                 <option value="">Quẹt thẻ</option>
                 <option value="">Chuyển khoản</option>
                 <option value="">COD</option>
-              </select> 
+              </select>
               <p class="payments_title">Tham chiếu</p>
-              <input type="number">
+              <input type="number" />
             </div>
             <div class="payments_boxleft">
               <p class="payments_title">Số tiền thanh toán</p>
-              <input type="number">
+              <input type="number" />
             </div>
           </div>
         </div>
