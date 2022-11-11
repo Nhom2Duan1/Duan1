@@ -12,6 +12,7 @@
       />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/thong_ke.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -109,7 +110,7 @@
                         </div>
                         <div class="layout">
                           <div class="layout__header">
-                                <h1 class="header--title">Tổng quan</h1>
+                                <h1 class="header--title">Thống kê</h1>
                                 <div class="header--item">
                                         <div>
                                                 <i class="fa-solid fa-wallet"></i>
@@ -146,9 +147,24 @@
                                    
                                 </div>
                           </div>
+                          <div class="layout__content">
+                                <div class="layout__content-items">
+                                        <div class="item--header">
+                                                <div class="title">
+                                                        <h1>Doanh thu cửa hàng</h1>
+                                                        <p>7 ngày qua</p>
+                                                </div>
+                                                <div class="price">6,937,000</div>
+                                        </div>
+                                        <div id="myChart"></div>
+                                </div>
+                                <div class="layout__content-items"></div>
+                          </div>
                         </div>
                 </div>
         </main>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="js/thong_ke.js"></script>
         <script src="js/script.js"></script>
 </body>
 </html>
