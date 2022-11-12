@@ -37,3 +37,109 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1240px;
+  height: auto;
+  padding: 30px;
+}
+.container .signin{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+}
+.container .signin .boxright{
+  background-color: #ffffff40;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 5px 5px #00000033;
+}
+.signin .boxright form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 0 30px;
+}
+.signin .boxright form p{
+  opacity: .7;
+}
+.signin .boxright form input{
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #eeee;
+}
+.signin .boxright form .signin_btn button{
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  box-shadow: 0 5px 5px #00000033;
+  opacity: .7;
+  cursor: pointer;
+}
+.boxleft{
+  display: grid;
+  grid-template-rows: 70% auto;
+  row-gap: 30px;
+}
+.boxleft .box1{
+  background-image: url('https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px #00000033;
+  overflow: hidden;
+  position: relative;
+}
+.boxleft .box1 .content{
+  position: absolute;
+  background-color: #ffffff80;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  bottom: 10px;
+  left: 10px;
+  backdrop-filter: blur(10px);
+}
+.boxleft .box1 .content .title{
+  font-size: x-large;
+  font-weight: bold;
+}
+.boxleft .box1 .content .desc{
+  opacity: .7;
+}
+.boxleft .box1 .content .review{
+  color: #FFB200;
+}
+.boxleft .box1 .content .author{
+  font-size: large;
+  float: right;
+}
+.boxleft .box1 .content .arrow{
+  width: 80px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.boxleft .box1 .content .arrow .arrow1,.arrow2{
+  background-color: #ffffff73;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.boxleft .box1 .content .arrow .arrow1 i{
+  position: absolute;
+  color: #fff;
+  top: 50%;left: 50%;
+  transform: translate(-50%,-50%);
+}
+.boxleft .box1 .content .arrow .arrow2 i{
+  position: absolute;
+  color: #fff;
+  top: 50%;left: 50%;
+  transform: translate(-50%,-50%);
+}
+
