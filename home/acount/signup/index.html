@@ -15,22 +15,51 @@
     <div class="container">
       <div class="signin">
         <div class="boxright">
+          <div class="image_decor">
+            <img src="./img/welcome.png" alt="">
+          </div>
           <form action="">
-            <p>Họ Tên</p>
+            <div class="icon_form">
+              <i class="fas fa-user"></i>
+              <p>Họ Tên</p>
+            </div>
             <input type="text" />
-            <p>Mật khẩu</p>
+            <div class="icon_form">
+              <i class="fas fa-lock"></i>
+              <p>Mật khẩu</p>
+            </div>
             <input type="password" name="" id="" />
-            <p>Email</p>
+            <div class="icon_form">
+              <i class="fas fa-envelope"></i>
+              <p>Email</p>
+            </div>
             <input type="email" name="" id="" />
-            <p>Số điện thoại</p>
+            <div class="icon_form">
+              <i class="fas fa-phone"></i>
+              <p>Số điện thoại</p>
+            </div>
             <input type="text" />
-            <p>Địa chỉ</p>
+            <div class="icon_form">
+              <i class="fas fa-map-marked-alt"></i>
+              <p>Địa chỉ</p>
+            </div>
             <input type="text" />
-            <div class="signin_btn"><button>Sign in</button></div>
+            <div class="signin_btn"><button>Đăng Kí</button></div>
           </form>
+          <div class="suggest_signup">
+            <p>Bạn đã có tài khoản?</p>
+            <a href="">
+              <p>Đăng nhập</p>
+            </a>
+          </div>
         </div>
         <div class="boxleft">
-          <div class="box1">
+          <div
+            class="box1"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+            "
+          >
             <div class="content">
               <div class="title">Welcome TPGC FOOD</div>
               <div class="desc">
@@ -46,23 +75,27 @@
               </div>
               <div class="author">Ngoc Tuyen</div>
               <div class="arrow">
-                <div class="arrow1">
+                <div id="prev" class="arrow1">
                   <i class="fas fa-arrow-left"></i>
                 </div>
-                <div class="arrow2">
+                <div id="next" class="arrow2">
                   <i class="fas fa-arrow-right"></i>
                 </div>
               </div>
             </div>
           </div>
           <div class="box2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            voluptatibus aspernatur sunt accusantium! Quia, quibusdam sapiente
-            quaerat odio exercitationem explicabo assumenda soluta voluptatum
-            quo qui fugiat magni dolorum error autem!
+            <p>Nhà hàng Nhật Tân</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              voluptatum, facilis eligendi minus vitae debitis aperiam cum
+              expedita. Incidunt nobis suscipit obcaecati consequatur voluptatem
+              laudantium id aliquam voluptates doloremque quisquam.
+            </p>
           </div>
         </div>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

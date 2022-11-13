@@ -41,12 +41,12 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   max-width: 1240px;
-  height: auto;
+  height: 100vh;
   padding: 30px;
 }
 .container .signin{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: 40% auto;
   gap: 30px;
 }
 .container .signin .boxright{
@@ -55,13 +55,29 @@ h6 {
   border-radius: 30px;
   box-shadow: 0 5px 5px #00000033;
 }
+.container .signin .boxright .image_decor{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .signin .boxright form{
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-  padding: 0 30px;
+  padding: 0 40px;
 }
 .signin .boxright form p{
+  opacity: .7;
+}
+.signin .boxright form .icon_form{
+  flex: none;
+}
+.signin .boxright form .icon_form p{
+  display: inline-block;
+  margin-left: 10px;
+}
+.signin .boxright form .icon_form i{
+  font-size: large;
   opacity: .7;
 }
 .signin .boxright form input{
@@ -72,6 +88,7 @@ h6 {
 .signin .boxright form .signin_btn button{
   width: 100px;
   margin-top: 20px;
+  background-image: linear-gradient(to left top, #E97777, #FCDDB0);
   border-radius: 5px;
   border: none;
   padding: 5px;
@@ -79,13 +96,25 @@ h6 {
   opacity: .7;
   cursor: pointer;
 }
+.boxright .suggest_signup{
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+  column-gap: 5px;
+}
+.boxright .suggest_signup p{
+  opacity: .7;
+  font-size: small;
+}
+.boxright .suggest_signup a{
+  text-decoration: none;
+}
 .boxleft{
   display: grid;
   grid-template-rows: 70% auto;
   row-gap: 30px;
 }
 .boxleft .box1{
-  background-image: url('https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -116,10 +145,12 @@ h6 {
 .boxleft .box1 .content .author{
   font-size: large;
   float: right;
+  margin-top: 10px;
 }
 .boxleft .box1 .content .arrow{
   width: 80px;
   height: auto;
+  margin: 10px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -128,6 +159,7 @@ h6 {
   border-radius: 50%;
   width: 30px;
   height: 30px;
+  cursor: pointer;
   position: relative;
 }
 .boxleft .box1 .content .arrow .arrow1 i{
@@ -141,5 +173,19 @@ h6 {
   color: #fff;
   top: 50%;left: 50%;
   transform: translate(-50%,-50%);
+}
+.boxleft .box2{
+  background-color: #ffffff40;
+  box-shadow: 0 5px 5px #00000033;
+  padding: 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+}
+.boxleft .box2 p:nth-child(1){
+  font-size: x-large;
+  padding: 10px 0;
+}
+.boxleft .box2 p:nth-child(2){
+  opacity: .7;
 }
 
