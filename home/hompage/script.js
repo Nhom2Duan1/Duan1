@@ -9,6 +9,8 @@ $(document).ready(function(){
                 dots:true
         });
       });
+/// scroll to top
+
 const scrollUp = () =>{
         const scrollUp = document.getElementById('scroll-up')
          if(this.scrollY >=350){
@@ -20,3 +22,26 @@ const scrollUp = () =>{
         // :scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll',scrollUp)
+// show mennu
+const btnShow=document.querySelector('.btn__menu')
+const btnClose=document.querySelector('.btn__close')
+const listMenu = document.querySelector('.header__menu .list--menu')
+const bgHeader = document.querySelector('.bg__header')
+btnShow.addEventListener('click',()=>{  
+        listMenu.classList.add('show-menu')
+        listMenu.classList.remove('close-menu')
+        bgHeader.classList.add('bg')
+       
+})
+btnClose.addEventListener('click',()=>{ 
+        listMenu.classList.remove('show-menu')
+        listMenu.classList.add('close-menu')
+        bgHeader.classList.remove('bg')
+})
+//show search
+const search=document.querySelector('.search i')
+search.addEventListener('click',()=>{
+        const formSearch = document.querySelector('.form__search')
+        formSearch.classList.toggle('show-search')
+
+})
