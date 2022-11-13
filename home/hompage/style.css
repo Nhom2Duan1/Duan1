@@ -57,7 +57,7 @@ main{
 header{
         
         background-color: #0a0000;
-        height: 90px;
+        height: fit-content;
 }
 .header_container{
         max-width: 1170px;
@@ -65,10 +65,10 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
+        /* padding: 15px; */
 }
 .header__logo {
-        width: 60px;
+        width:100px;
 }
 .header__menu .list--menu{
         display: flex;
@@ -87,6 +87,9 @@ header{
         border-radius: 5px;
 }
 .list--menu .list--link a:hover{
+        color: #f3e385;
+}
+.list--menu .list--link a:focus{
         color: #f3e385;
 }
 .banner__container{
