@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to top right, #F7F6DC, #CBA0AE);
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.title{
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 30px;
+}
+.container{
+  max-width: 1240px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+.container .listMenu ul li{
+  list-style: none;
+  height: 0;
+  display: inline-block;
+  margin-left: 20px;
+  box-shadow: 0 5px 5px #00000033;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.listMenu ul li:hover{
+  height: 130px;
+  background-color: #FFFAD7;
+}
+.listMenu ul li:nth-child(1){
+  height: 130px;
+  background-color: #FFFAD7;
+}
+.active_tag_a{
+  transform: translateY(30px);
+}
+.listMenu ul li:hover a{
+  transform: translateY(30px);
+}
+.container .listMenu ul li .imgMenu{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: #F2E7D599;
+  border-radius: 50%;
+  box-shadow: 0 3px 3px #0000001A;
+  position: relative;
+}
+.listMenu ul li .imgMenu img{
+  position: absolute;
+  width: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.container .listMenu ul li a{
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+  opacity: .7;
+  color: #000000;
+  transition: 0.7s;
+}
+.listDish{
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+}
+.listDish .item{
+  background-color: #ffffff66;
+  border: 1px solid #fefefe;
+  box-shadow: 0 5px 5px #0000001A;
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);  
+}
+.listDish .item .img{
+  border-radius: 30px;
+}
+.listDish .item .img img{
+  border-radius: 10px;
+}
+.listDish .item .name{
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.listDish .item .review{
+  text-align: center;
+}
+.listDish .item .review i{
+  color:#FECD70;
+}
+.listDish .item .info{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+}
+.listDish .item .info_price, .info_iteam{
+  border-right: 2px solid #efefef;
+}
+.listDish .item .info_iteam p:nth-child(1),.info_price p:nth-child(1),.info_ordered p:nth-child(1){
+  font-size: small;
+  opacity: .6;
+}
+.listDish .item .info_iteam p:nth-child(2),.info_price p:nth-child(2),.info_ordered p:nth-child(2){
+  font-weight: bold;
+}
