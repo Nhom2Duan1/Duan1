@@ -50,7 +50,7 @@ h6 {
   gap: 30px;
 }
 .container .signin .boxright{
-  background-color: #ffffff40;
+  background-color: #ffffff99;
   padding: 20px;
   border-radius: 30px;
   box-shadow: 0 5px 5px #00000033;
@@ -175,7 +175,7 @@ h6 {
   transform: translate(-50%,-50%);
 }
 .boxleft .box2{
-  background-color: #ffffff40;
+  background-color: #ffffff99;
   box-shadow: 0 5px 5px #00000033;
   padding: 10px;
   border-radius: 20px;
