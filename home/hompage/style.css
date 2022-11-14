@@ -95,7 +95,7 @@ header{
 .banner__container{
       
         box-sizing: border-box;
-        width: 1903px;
+        width: 100vw;
         margin: 0 auto;
 }
 
