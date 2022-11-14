@@ -102,11 +102,7 @@ header {
         margin: 0 auto;
 }
 
-.banner--item .image img{
-        width:100%;
-        height:742px;
-        object-fit: cover;
-}
+
 .banner__container:hover .slick-next {
   opacity: 1;
   transition: all 0.25s linear;
