@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./contact/contact.css">
+  <link rel="stylesheet" href="../view/home/contact/contact.css">
   <title>Liên Hệ</title>
 </head>
 
 <body>
   <div class="contact">
     <div class="banner">
-      <img src="./contact/img/banner1.jpg" alt="">
+      <img src="../view/home/contact/img/banner1.jpg" alt="">
     </div>
     <div class="content">
       <div class="left">

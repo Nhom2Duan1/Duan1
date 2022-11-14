@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Đăng nhập</title>
-  <link rel="stylesheet" href="./acount/signin/style.css" />
+  <link rel="stylesheet" href="../view/home/acount/signin/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 </head>
 
@@ -15,7 +15,7 @@
     <div class="signin">
       <div class="boxleft">
         <div class="image_decor">
-          <img src="./acount/signin/img/welcome_signin.png" alt="">
+          <img src="../view/home/acount/signin/img/welcome_signin.png" alt="">
         </div>
         <form action="">
           <p>Họ tên</p>
@@ -33,7 +33,7 @@
         </form>
         <div class="suggest_signin">
           <p class="suggest_signin_title">Bạn chưa có tài khoản?</p>
-          <a href="">
+          <a href="?ctr=signup">
             <p>Đăng kí</p>
           </a>
         </div>

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Đăng kí</title>
-  <link rel="stylesheet" href="./acount/signup/style.css" />
+  <link rel="stylesheet" href="../view/home/acount/signup/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 </head>
 
@@ -15,7 +15,7 @@
     <div class="signin">
       <div class="boxright">
         <div class="image_decor">
-          <img src="./img/welcome.png" alt="">
+          <img src="../view/home/acount/signup/img/welcome.png" alt="">
         </div>
         <form action="">
           <div class="icon_form">
@@ -47,14 +47,14 @@
         </form>
         <div class="suggest_signup">
           <p>Bạn đã có tài khoản?</p>
-          <a href="">
+          <a href="?ctr=signin">
             <p>Đăng nhập</p>
           </a>
         </div>
       </div>
       <div class="boxleft">
         <div class="box1" style="
-              background-image: url('./img/img2.jpg');
+              background-image: url('../view/home/acount/signup/img/img2.jpg');
             ">
           <div class="content">
             <div class="title">Welcome TPGC FOOD</div>
@@ -92,7 +92,7 @@
       </div>
     </div>
   </div>
-  <script src="main.js"></script>
+  <script src="../view/home/acount/signup/main.js"></script>
 </body>
 
 </html>

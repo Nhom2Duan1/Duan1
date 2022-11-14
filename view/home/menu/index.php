@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Menu</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  <link rel="stylesheet" href="./menu/style.css" />
+  <link rel="stylesheet" href="../view/home/menu/style.css" />
 </head>
 
 <body>
@@ -17,32 +17,32 @@
       <ul>
         <li class="">
           <div class="imgMenu">
-            <img src="./menu/img/food-tray.png" alt="" />
+            <img src="../view/home/menu/img/food-tray.png" alt="" />
           </div>
           <a class="active_tag_a" href="">Tất cả</a>
         </li>
         <li>
-          <div class="imgMenu"><img src="./menu/img/noodles.png" alt="" /></div>
+          <div class="imgMenu"><img src="../view/home/menu/img/noodles.png" alt="" /></div>
           <a href="">Mỳ</a>
         </li>
         <li>
-          <div class="imgMenu"><img src="./menu/img/donut.png" alt="" /></div>
+          <div class="imgMenu"><img src="../view/home/menu/img/donut.png" alt="" /></div>
           <a href="">Bánh</a>
         </li>
         <li>
-          <div class="imgMenu"><img src="./menu/img/hot-pot.png" alt="" /></div>
+          <div class="imgMenu"><img src="../view/home/menu/img/hot-pot.png" alt="" /></div>
           <a href="">Lẩu</a>
         </li>
         <li>
-          <div class="imgMenu"><img src="./menu/img/beef.png" alt="" /></div>
+          <div class="imgMenu"><img src="../view/home/menu/img/beef.png" alt="" /></div>
           <a href="">Bò</a>
         </li>
         <li>
-          <div class="imgMenu"><img src="./menu/img/chop.png" alt="" /></div>
+          <div class="imgMenu"><img src="../view/home/menu/img/chop.png" alt="" /></div>
           <a href="">Heo</a>
         </li>
         <li>
-          <div class="imgMenu"><img src="./menu/img/cocktail.png" alt="" /></div>
+          <div class="imgMenu"><img src="../view/home/menu/img/cocktail.png" alt="" /></div>
           <a href="">Nước</a>
         </li>
       </ul>

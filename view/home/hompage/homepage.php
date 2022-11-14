@@ -1,29 +1,29 @@
 <section class="banner__container">
   <div class="banner--item">
     <div class="image">
-      <img src="./hompage/img/fzn_0370_ll12.jpg" alt="" />
+      <img src="./view/home/hompage/img/fzn_0370_ll12.jpg" alt="" />
     </div>
   </div>
   <div class="banner--item">
     <div class="image">
-      <img src="./hompage/img/menu.jpg" alt="" />
+      <img src="./view/home/hompage/img/menu.jpg" alt="" />
     </div>
   </div>
   <div class="banner--item">
     <div class="image">
-      <img src="./hompage/img/slider01.jpg" alt="" />
+      <img src="./view/home/hompage/img/slider01.jpg" alt="" />
     </div>
   </div>
   <div class="banner--item">
     <div class="image">
-      <img src="./hompage/img/SLIDER2.jpg" alt="" />
+      <img src="./view/home/hompage/img/SLIDER2.jpg" alt="" />
     </div>
   </div>
 </section>
 
 <section class="combo">
   <div class="combo__img">
-    <img src="./hompage/img/bang-gia-01.png" alt="" />
+    <img src="./view/home/hompage/img/bang-gia-01.png" alt="" />
   </div>
 </section>
 <section class="category">
@@ -44,11 +44,11 @@
     </div>
     <div class="category__item">
       <div class="category__item--image">
-        <img src="./hompage/img/category1.png" alt="">
+        <img src="./view/home/hompage/img/category1.png" alt="">
         <div class="button"><i class="fa-solid fa-star"></i><span>Chọn món</span></div>
       </div>
       <div class="category__item--image">
-        <img src="./hompage/img/category2.png" alt="">
+        <img src="./view/home/hompage/img/category2.png" alt="">
         <div class="button"><i class="fa-solid fa-heart"></i>Gọi món nướng</div>
       </div>
     </div>
@@ -58,16 +58,16 @@
   <div class="menu__container">
     <div class="menu__item">
       <div class="menu__item--img">
-        <img src="./hompage/img/1212.jpg" alt="">
+        <img src="./view/home/hompage/img/1212.jpg" alt="">
       </div>
       <div class="menu__item--img">
-        <img src="./hompage/img/4534545345.jpg" alt="">
+        <img src="./view/home/hompage/img/4534545345.jpg" alt="">
       </div>
       <div class="menu__item--img">
-        <img src="./hompage/img/fzn_0370_ll12-1.jpg" alt="">
+        <img src="./view/home/hompage/img/fzn_0370_ll12-1.jpg" alt="">
       </div>
       <div class="menu__item--img">
-        <img src="./hompage/img/fzn_0496_ll-900x598-300x199.jpg" alt="">
+        <img src="./view/home/hompage/img/fzn_0496_ll-900x598-300x199.jpg" alt="">
       </div>
     </div>
     <div class="menu__item">
@@ -106,10 +106,10 @@
     </div>
     <div class="category__item">
       <div class="category__item--image">
-        <img src="img/nha-hang-king-bbq-1-1-679x1024.jpg" alt="">
+        <img src="./view/home/hompage/img/nha-hang-king-bbq-1-1-679x1024.jpg" alt="">
       </div>
       <div class="category__item--image">
-        <img src="./hompage/img/nha-hang-king-bbq-1-2-679x1024.jpg" alt="">
+        <img src="./view/home/hompage/img/nha-hang-king-bbq-1-2-679x1024.jpg" alt="">
 
       </div>
     </div>
@@ -119,7 +119,7 @@
     <div class="signup__container">
       <div class="signup__title">Đăng ký để nhận ưu đãi hàng tháng tới 30% từ Sun Homes BBQ</div>
       <form action="" class="signup__form">\
-        <input type="text" placeholder="Nhập địa chỉ email...">
+        <input type="text" placeholder="Nhập địa chỉ email..">
         <button>Đăng kí ngay</button>
       </form>
     </div>
@@ -129,7 +129,8 @@
   <div class="content__container">
     <div class="content__item">
       <div class="content__item--image">
-        <img src="./hompage/img/213854-set-menu-han-quoc-hap-dan-danh-cho-2-nguoi-suon-nuong-han-quoc.jpg" alt="">
+        <img src="./view/home/hompage/img/213854-set-menu-han-quoc-hap-dan-danh-cho-2-nguoi-suon-nuong-han-quoc.jpg"
+          alt="">
       </div>
       <div class="content__item--desc">
         <h1>Korea Cousine</h1>
@@ -144,11 +145,11 @@
     <div class="content__item">
 
 
-      <img src="./hompage/img/cach-an-thit-nuong-2.jpg" alt="">
-      <img src="./hompage/img/img20161208034438844.jpg" alt="">
+      <img src="./view/home/hompage/img/cach-an-thit-nuong-2.jpg" alt="">
+      <img src="./view/home/hompage/img/img20161208034438844.jpg" alt="">
 
-      <img src="./hompage/img/1-11-2014-6-05-19-PM.jpg" alt="">
-      <img src="./hompage/img/images.jpg" alt="">
+      <img src="./view/home/hompage/img/1-11-2014-6-05-19-PM.jpg" alt="">
+      <img src="./view/home/hompage/img/images.jpg" alt="">
 
 
     </div>
