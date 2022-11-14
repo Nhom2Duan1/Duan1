@@ -12,7 +12,7 @@
   <link rel="shortcut icon" href="img/logo-removebg.png" type="image/x-icon">
 
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./hompage/style.css" />
 </head>
 
 <body>
@@ -25,7 +25,7 @@
           <i class="fa-solid fa-bars"></i>
         </div>
         <div class="header__logo">
-          <img src="img/logo-removebg.png" alt="" />
+          <img src="./hompage/img/logo-removebg.png" alt="" />
         </div>
 
         <div class="header__menu">
@@ -34,12 +34,13 @@
             <div class="btn__close">
               <i class="fa-solid fa-xmark"></i>
             </div>
-            <li class="list--link"><a href="index.html">Trang chủ</a></li>
+            <li class="list--link"><a href="?ctr=homepage">Trang chủ</a></li>
             <li class="list--link"><a href="">Giới thiệu</a></li>
             <li class="list--link"><a href="?ctr=settable">Đặt bàn</a></li>
             <li class="list--link"><a href="?ctr=menu">Thực đơn</a></li>
             <li class="list--link"><a href="">Tin tức</a></li>
             <li class="list--link"><a href="?ctr=contact">Liên hệ</a></li>
+            <li class="list--link"><a href="?ctr=signin">Đăng nhập</a></li>
             <li class="list--link">
               <a href="" class="hotline">Hotline:099999999</a>
             </li>

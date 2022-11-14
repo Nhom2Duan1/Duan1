@@ -12,7 +12,6 @@
 body {
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient(to top right, #F7F6DC, #CBA0AE);
 }
 img,
 picture,
@@ -43,17 +42,13 @@ h6 {
   padding: 30px;
 }
 .container{
-  max-width: 1240px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
+  background-color: #efefef;
 }
 .container .listMenu ul li{
   list-style: none;
   height: 0;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 30px;
   box-shadow: 0 5px 5px #00000033;
   border-radius: 30px;
   transition: 0.5s;
@@ -100,6 +95,7 @@ h6 {
 .listDish{
   display: grid;
   margin-top: 30px;
+  padding:0 30px 30px 30px;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 30px;
 }
