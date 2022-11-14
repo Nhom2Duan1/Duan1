@@ -145,7 +145,7 @@ header{
 .slick-dots{
         position: absolute;
         bottom: 0;
-        left:50%;
+        width: 100%;  
         display: flex !important;
         align-items: center;
         justify-content: center;
