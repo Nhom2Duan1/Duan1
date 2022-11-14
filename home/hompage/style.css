@@ -59,6 +59,13 @@ header{
         background-color: #0a0000;
         height: fit-content;
 }
+.bg-header{
+        background-color: rgb(0, 0, 0,0.8);
+        position: sticky;
+        top: 0;
+        z-index: 10000;
+        transition: all 0.25s ;
+}
 .header_container{
         max-width: 1170px;
         margin: 0 auto;
@@ -145,7 +152,7 @@ header{
 .slick-dots{
         position: absolute;
         bottom: 0;
-        left:50%;
+        width: 100%;
         display: flex !important;
         align-items: center;
         justify-content: center;
