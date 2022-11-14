@@ -9,6 +9,17 @@ $(document).ready(function(){
                 dots:true
         });
       });
+//scroll header
+const scrollHeader = () => {
+       const bgHeader=document.querySelector('header')
+       if(this.scrollY>=40){
+        bgHeader.classList.add('bg-header')
+       }else{
+        bgHeader.classList.remove('bg-header')
+
+       }
+}
+window.addEventListener('scroll',scrollHeader)
 /// scroll to top
 
 const scrollUp = () =>{
