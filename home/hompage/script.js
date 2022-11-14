@@ -12,7 +12,7 @@ $(document).ready(function(){
 //scroll header
 const scrollHeader = () => {
        const bgHeader=document.querySelector('header')
-       if(this.scrollY>=50){
+       if(this.scrollY>=40){
         bgHeader.classList.add('bg-header')
        }else{
         bgHeader.classList.remove('bg-header')
