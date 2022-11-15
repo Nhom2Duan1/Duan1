@@ -1,0 +1,104 @@
+.new{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70% auto;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.new .left{
+    width: 100%;
+
+    
+    
+}
+.new .left a img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.title h1{
+    font-weight: bold;
+    font-size: 15px;
+}
+.title h2{
+    margin-top: 20px;
+}
+.title h2 a{
+    color: gray;
+    font-weight: bold;
+}
+.title h2 a:hover{
+    color: black;
+}
+h3{
+    color: #777777;
+    font-weight: bold;
+    margin-top: 10px;
+}
+h6{
+    margin-top: 10px;
+    color: gray;
+    font-size: 10px;
+}
+p{
+    color: gray;
+    margin-top: 15px;
+}
+i{
+    color: gray;
+    font-weight: bold;
+    padding-top: 25px;
+    display: inline-block;
+}
+em{
+    color: gray;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:#F2F2F2;
+}
+
+.background{
+    padding-top: 25px;
+    
+}
+.title hr{
+    border: 2px solid gray;
+    color: gray;
+    margin-top: 5px;
+    width: 40px;
+}
+.hr hr{
+    border: 2px solid gray;
+    color: gray;
+    margin-top: 5px;
+    width: 40px;
+}
+.hr{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.icon{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.icon i{
+
+    background-color: #cccccc;
+    padding: 12px 12px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #777777;
+    transition: 0.5s;
+}
+.icon i:hover{
+    transform: translateY(-10px);
+    background-color: #00204a;
+    color: #fff;
+    border: none;
+  }
