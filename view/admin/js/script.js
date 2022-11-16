@@ -4,64 +4,30 @@ const $$= document.querySelectorAll.bind(document)
 const app = {
    // xử lí sự kiện
    handleEvent: function() {
-        const list = $('.list')
-        const list2 = $('.list2')
-        const list3 = $('.list3')
-        const list4 = $('.list4')
-        const list5 = $('.list5')
-        const logoIcon = $('.navbar__logo-icon')
-        const listHidden = $$('.navbar__lists-hidden')
-        const itemUser = $('.item-user')
-        
-        //show user
-        if(itemUser){
-        itemUser.onclick = () =>{
-                const listUser = $('.header__list-user')
-                listUser.classList.toggle('hidden')
+    const logoIcon = $('.navbar__logo-icon')
+    const listHidden = $$('.navbar__lists-hidden')
+    const itemUser = $('.item-user')
+    
+    //show user
+    if(itemUser){
+    itemUser.onclick = () =>{
+            const listUser = $('.header__list-user')
+            listUser.classList.toggle('hidden')
 
-        }
-      }
+    }
+    }
 
-   //show menu
-     list.onclick = function () {
-        const icon = $('.item-show ')
-        const listHidden = $('.navbar__lists-hidden')
-        icon.classList.toggle('item-show-rotate')
-        listHidden.classList.toggle('hidden')
-       
-      }
-      list2.onclick = function () {
-        const icon = $('.show2')
-        const listHidden = $('.hidden2')
-        icon.classList.toggle('item-show-rotate')
-        listHidden.classList.toggle('hidden')
-   
-        
-      }
-      list3.onclick = function () {
-        const icon = $('.show3')
-        const listHidden = $('.hidden3')
-        icon.classList.toggle('item-show-rotate')
-        listHidden.classList.toggle('hidden')
-   
-        
-      }
-      list4.onclick = function () {
-        const icon = $('.show4')
-        const listHidden = $('.hidden4')
-        icon.classList.toggle('item-show-rotate')
-        listHidden.classList.toggle('hidden')
-   
-        
-      }
-      list5.onclick = function () {
-        const icon = $('.show5')
-        const listHidden = $('.hidden5')
-        icon.classList.toggle('item-show-rotate')
-        listHidden.classList.toggle('hidden')
-   
-        
-      }
+    let show=$$('.navbar__lists-main')
+    for (let i = 0; i < show.length; i++) {
+    const element = show[i];
+    
+    
+    element.addEventListener('click', () => {
+    element.nextSibling.classList.toggle('show')
+    element.firstElementChild.lastElementChild.classList.toggle('item-show-rotate')
+    })
+    
+  }
       logoIcon.onclick = function () {
        const container = $('.container')
        const logo = $('.navbar__logo')
@@ -87,12 +53,12 @@ const app = {
         
       }
    },
-   start :  function(){
+   start : function(){
    this.handleEvent();
 
    }
 }
-app.start();
+app.start()
 // window.addEventListener('beforeunload',(e)=>{
 //   e.preventDefault();
 //   e.returnValue="Bạn chắc chắn muốn đóng tab hiện tại"; 
