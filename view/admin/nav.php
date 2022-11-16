@@ -11,6 +11,7 @@
         type="image/x-icon"
       />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../view/admin/slideShow/style.css">
         <link rel="stylesheet" href="../../view/admin/style/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -108,6 +109,20 @@
                                                </div>
                                                <div class="navbar__lists-hidden  " >
                                                        <a href=""><div>Danh sách danh mục món</div></a>
+                                               </div>
+                                               
+                                       </a>
+                                       <a href="#" class="navbar__lists-main ">
+                                               <div class="navbar__lists ">
+                                                      <div class="item-icon">
+                                                       <i class="fa-solid fa-receipt"></i>
+                                                      </div>
+                                                      <div class="item-name" >Quản lý liên hệ</div>
+                                                      <i class="fa-solid fa-angle-right icon-show"></i>
+                                                      
+                                               </div>
+                                               <div class="navbar__lists-hidden  " >
+                                                       <a href=""><div>Danh sách liên hệ</div></a>
                                                </div>
                                                
                                        </a>
