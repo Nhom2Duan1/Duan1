@@ -33,6 +33,7 @@ if(isset($_GET['ctr'])){
     case 'settable':
       include_once './book/book.php';
       break;
+     
     default:
       include_once './view/home/hompage/homepage.php';
       break;

@@ -42,7 +42,7 @@
             <li class="list--link"><a href="?ctr=contact">Liên hệ</a></li>
             <li class="list--link"><a href="?ctr=signin">Đăng nhập</a></li>
             <li class="list--link">
-              <a href="" class="hotline">Hotline:099999999</a>
+              <a href="controller/admin/admin.php" class="hotline">Hotline:099999999</a>
             </li>
           </ul>
         </div>

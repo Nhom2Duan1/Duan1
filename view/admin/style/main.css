@@ -112,11 +112,13 @@ li{
    font-weight: 300;
    
 }
-
-.item-show {
+.navbar__lists .icon-show{
   position: absolute;
-  right: 10%;
-  color: white;
+  right:10%;
+  color:white
+}
+.show {
+   display: none;
  
 }
 .item-show-rotate{
@@ -137,12 +139,10 @@ li{
     color: white;
 
 }
+
 .hidden{
   display: none;
-  animation: opacity 1s linear;
-  
 }
-
 .layout{
   background-color: #f0f1f1;
   
