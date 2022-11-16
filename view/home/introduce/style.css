@@ -1,0 +1,32 @@
+.contact{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:30px;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+strong{
+    font-weight: bold;
+}
+p{
+    margin: 10px 0 ;
+    color: gray;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius:8px ;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    margin-top: 20px;
+}

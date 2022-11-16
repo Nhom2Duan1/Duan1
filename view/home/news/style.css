@@ -1,0 +1,105 @@
+footer{
+    margin-top: 20px;
+}
+.post{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+    height: 100px;
+    display: grid ;
+    grid-template-columns: 75% 25%;
+    justify-content: space-between;
+    
+}
+
+.post_left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:20px;
+    border-right: 1px solid gray;
+    height: fit-content;
+    padding-top: 20px;
+}
+ .letter hr{
+    border: 2px solid gray;
+    color: gray;
+    margin-top: 5px;
+    width: 40px;
+}
+.title hr{
+    border: 2px solid gray;
+    color: gray;
+    margin-top: 5px;
+    width: 40px;
+}
+.post_right{
+    padding: 0 20px;
+    padding-top: 20px;
+}
+.post_right input{
+    padding: 7px;
+}
+.post_right button{
+    cursor: pointer;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    margin-left: -10px;
+    width: 50px;
+}
+.letter{
+    padding: 20px ;
+   
+}
+.letter h1{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.letter p{
+    color: gray;
+    margin-top: 10px;
+}
+.letter:hover p{
+    color: black;
+}
+.letter hr{
+    height: 5px;
+}
+.date{
+    background-color: #F3E07F;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:5%;
+}
+.item{
+    position: relative;
+}
+.post_right h1{
+    padding-top: 10px;
+    font-weight: bold;
+    color: gray;
+}
+.post_right h2{
+    color: gray;
+    font-size: 50px;
+}
+.post_details{
+    margin-top: 20px;
+}
+.post_details hr{
+    margin-top: 10px;
+}
+.post_details a{
+    color: gray;
+   
+}
+.post_details:hover a{
+    color: black;
+}
