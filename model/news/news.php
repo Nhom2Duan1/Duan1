@@ -1,5 +1,6 @@
 <?php
  
+ 
 function add_news($title,$image,$summary,$content,$date){
         $sql="insert into tintuc (title,image,summary,content,date) VALUES ('$title','$image','$summary','$content','$date')";
         pdo_execute($sql);
