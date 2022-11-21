@@ -1,5 +1,6 @@
 <?php
  
+ 
 function add__intro($title,$image,$content){
         $sql="insert into introduce (title,image,content) VALUES ('$title','$image','$content')";
         pdo_execute($sql);
