@@ -1,26 +1,18 @@
 <section class="banner__container">
-  <div class="banner--item">
-    <div class="image">
-      <img src="./view/home/hompage/img/fzn_0370_ll12.jpg" alt="" />
-    </div>
-  </div>
-  <div class="banner--item">
-    <div class="image">
-      <img src="./view/home/hompage/img/menu.jpg" alt="" />
-    </div>
-  </div>
-  <div class="banner--item">
-    <div class="image">
-      <img src="./view/home/hompage/img/slider01.jpg" alt="" />
-    </div>
-  </div>
-  <div class="banner--item">
-    <div class="image">
-      <img src="./view/home/hompage/img/SLIDER2.jpg" alt="" />
-    </div>
-  </div>
-</section>
+  <?php
+  foreach($slider as $sl){
+     extract($sl);
+     echo '<div class="banner--item">
+       <div class="image">
+       <img src="./view/home/hompage/img/'.$image.'" alt="" />
+       </div>
+       </div>';
 
+  }
+  ?>
+ 
+</section>
+<!-- end banner__container -->
 <section class="combo">
   <div class="combo__img">
     <img src="./view/home/hompage/img/bang-gia-01.png" alt="" />

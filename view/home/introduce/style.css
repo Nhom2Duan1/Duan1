@@ -1,10 +1,14 @@
+.container--contact{
+    max-width: 1200px;
+    margin: 0px auto;
+}
 .contact{
     max-width: 1200px;
-    margin: auto;
+     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap:30px;
-    margin-top: 30px;
+    margin: 50px 0px;
 }
 h1{
     text-align: center;

@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.slideShow__container,
+.updateslide{
+        margin: 30px;
+        background-color: #ffffff;
+}
+.slideShow__container .slideShow__title{
+        padding: 20px;
+        font-size: 20px;
+        color: #333333;
+        font-weight: 500;
+        width: fit-content;
+        border-bottom: 1px solid rgb(207, 206, 206);
+        padding: 20px;
+}
+.table{
+        width: 100%;
+        padding: 30px;
+}
+ .table--header ,
+ .table--body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 12px 20px 20px;
+        border-bottom: 1px solid rgb(207, 206, 206);
+        font-weight: 500;
+        
+}
+.icon{
+        color: #2ed8b6;
+ }
+.table--body .img{
+        width: 300px;
+}
+.updateslide__container{
+        
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        padding: 20px;
+     
+}
+.img__banner{
+        width: 500px;
+       
+}
+.updateslide .title--update{
+        font-size: 20px;
+        color: #000000;
+        padding: 20px;
+        margin: 20px 0px;
+        border-bottom: 1px solid rgb(207, 206, 206);
+        width: fit-content;
+}
+.form_update{
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid rgb(207, 206, 206);
+        
+}
+.btn--update{
+        color: white;
+        background-color: #000000;
+        padding: 10px 20px;
+        border-radius: 5px;
+}

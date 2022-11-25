@@ -46,12 +46,7 @@ p{
     color: gray;
     margin-top: 15px;
 }
-i{
-    color: gray;
-    font-weight: bold;
-    padding-top: 25px;
-    display: inline-block;
-}
+
 em{
     color: gray;
     display: inline-block;
@@ -82,23 +77,5 @@ em{
     justify-content: center;
     margin-top: 10px;
 }
-.icon{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 10px;
-}
-.icon i{
 
-    background-color: #cccccc;
-    padding: 12px 12px;
-    border-radius: 15px;
-    font-size: 20px;
-    color: #777777;
-    transition: 0.5s;
-}
-.icon i:hover{
-    transform: translateY(-10px);
-    background-color: #00204a;
-    color: #fff;
-    border: none;
-  }
+
