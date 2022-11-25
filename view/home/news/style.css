@@ -1,14 +1,12 @@
-footer{
-    margin-top: 20px;
-}
+
 .post{
     max-width: 1200px;
     margin: auto;
     margin-top: 25px;
-    height: 100px;
     display: grid ;
     grid-template-columns: 75% 25%;
     justify-content: space-between;
+    padding: 20px;
     
 }
 
