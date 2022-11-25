@@ -1,0 +1,36 @@
+.add_dm{
+    width: 40%;
+    margin: 0 auto;
+   padding-top: 7%; 
+}
+.add_dm form{
+    border: 1px solid white ;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: 1px 1px 2px 2px #3399FF ; */
+    border-radius: 5px;
+}
+::placeholder{
+ padding: 10px;
+}
+.add_dm form .tt{
+    width: 80%;
+    padding-top: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px gray ;
+}
+.submit{
+    padding-top: 20px;
+}
+.submit input{
+   width: 120px;
+   height: 30px;
+   background-color: #3399FF;
+   border: 1px solid #3399FF;
+   border-radius: 5px;
+   color: white;
+   font-weight: bolder;
+   box-shadow: 0px 0px 3px 3px #3399FF;
+}
