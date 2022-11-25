@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../view/home/contact/contact.css">
-  <title>Liên Hệ</title>
-</head>
-
-<body>
   <div class="contact">
     <div class="banner">
-      <img src="../view/home/contact/img/banner1.jpg" alt="">
+      <img src="./view/home/contact/img/banner1.jpg" alt="">
     </div>
     <div class="content">
       <div class="left">
@@ -31,16 +20,20 @@
 
       </div>
       <div class="righ">
-        <div>
-          <input type="text" placeholder="tên của bạn..."> <br> <br>
-          <input type="text" placeholder="địa chỉ email..."> <br> <br>
-          <input type="text" placeholder="số điện thoại..."> <br> <br>
-          <input type="text" placeholder="mục đích liên hệ ..."> <br> <br>
-          <textarea name="" id="" cols="30" rows="10" placeholder="nội dung chi tiết..."></textarea>
+        <form action="" method="post" enctype="multipart/form-data">
+        <div>    
+          <input type="text" placeholder="tên của bạn..." name="name"> <br> <br>
+          <input type="text" placeholder="địa chỉ email..." name="email"> <br> <br>
+          <input type="text" placeholder="số điện thoại..." name="sdt"> <br> <br>
+          <input type="text" placeholder="mục đích liên hệ ..." name="mucdich"> <br> <br>
+          <textarea  id="" cols="30" rows="10" placeholder="nội dung chi tiết..." name="noidung" ></textarea>
         </div>
         <div class="btn">
-          <input type="button" value="Gửi Liên Hệ">
+          <input type="submit" name="btn" value="Gửi Liên Hệ">
         </div>
+        
+        </form>
+       
 
       </div>
 
@@ -49,6 +42,3 @@
 
 
   </div>
-</body>
-
-</html>
