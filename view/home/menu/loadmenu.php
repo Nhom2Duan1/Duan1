@@ -21,7 +21,7 @@
         // var_dump($listmenu);
         foreach ($listmenu as $loadlistcatemenu) {
           extract($loadlistcatemenu);
-          $cate_menu = "?ctr=cate_menu&menu_list=".$id_danh_muc_mon;
+          $cate_menu = "?ctr=cate_menu&&menu_list=".$id_danh_muc_mon;
           // var_dump($cate_menu);
           echo '
           <li>
@@ -36,10 +36,11 @@
     <div class="listDish">
       <!-- ĐỔ DỮ LIỆU MÓN ĂN -->
       <?php
-       $list_catemenu = loadAll_liscate_menu();
+      //  $list_catemenu = loadAll_liscate_menu();
       //  var_dump($anh_mon);
       foreach ($list_catemenu as $all_menu) {
         extract($all_menu);
+        // var_dump($all_menu);
         echo '
         <div class="item">
         <div class="img">
