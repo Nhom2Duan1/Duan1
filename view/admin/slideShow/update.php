@@ -17,7 +17,7 @@ if(is_array($slider)){
                                         <input type="hidden" name="id_slidershow" value="<?=$id_slidershow?>">
                                         <input type="hidden" name="name_slider" value="<?=$name_slider?>">
                                         <input type="file" name="img" id=""  class="input--update" >
-                                        <input type="submit" value="Gửi" name="btn_update" class="btn--update">
+                                        <input type="submit" value="Gửi" name="btn_update" class="btn--update add-btn">
                                         
                                 </form>
                                 

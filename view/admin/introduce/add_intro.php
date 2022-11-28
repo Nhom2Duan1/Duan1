@@ -19,7 +19,7 @@
      </div>
      <div class="btn--add">
         <input type="hidden" name="id_intro">
-        <input type="submit" name="btn_add" value="Đăng bài">
+        <input type="submit" name="btn_add" value="Đăng bài" class="add-btn">
      </div>
      
 

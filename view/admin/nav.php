@@ -68,7 +68,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href="?ctr="><div>Danh sách đặt bàn</div></a>
+                                                       <a href="?ctr=listbook"><div>Danh sách đặt bàn</div></a>
                                                        
                                                </div>
                                                

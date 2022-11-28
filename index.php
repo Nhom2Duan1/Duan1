@@ -11,7 +11,6 @@ $url = isset($_GET['url']) ? $_GET['url'] : '/' ;
 // Chức năng giống như điều hành đến các controller khác nhau
 switch($url) {
                         case '/':
-                         
                             include_once 'controller/clien/home.php';
                             // Gọi controller admin
                             break;

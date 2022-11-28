@@ -68,9 +68,13 @@
         cùng nhiều combo và set bộ hấp dẫn đều có trong menu của King BBQ. Ngoài ra các bạn còn được thưởng thức những
         món ăn đặc trưng và nổi tiếng trong văn hoá ẩm thực của Hàn
         Quốc do chính tay đàu bếp người Hàn Quốc chế biến.</div>
+        
       <div class="menu__item-btn">
+        <a href="?ctr=menu" style="color:white ;">
         <i class="fa-solid fa-bars"></i>
         Thực đơn
+        </a>
+        
       </div>
     </div>
 
@@ -171,9 +175,9 @@
 
       </div>
       <div class="table__item">
-        <form action="" class="table__form">
+        <form action="" method="post" class="table__form">
           <div class="form--item">
-            <select>
+            <select name="id_loai_ban">
               <option value="0">Chọn loại bàn</option>
               <option value="1">Bàn đơn</option>
               <option value="2">Bàn đôi</option>
@@ -182,134 +186,135 @@
             </select>
           </div>
           <div class="form--item">
-            <input type="text" name="" id="" placeholder="Tên của bạn..">
+            <input type="text" name="ten_nguoi_dat" id="" placeholder="Tên của bạn..">
           </div>
           <div class="form--item">
-            <input type="text" name="" id="" placeholder="Số điện thoại">
+            <input type="text" name="sdt" id="" placeholder="Số điện thoại">
           </div>
           <div class="form--item">
-            <input type="text" name="" id="" placeholder="Số người ăn">
+            <input type="number" name="so_nguoi" id="" value="0" min="0" placeholder="Số người ăn">
           </div>
           <div class="form--item">
-            <input type="date" name="" id="">
+            <input type="date" name="ngay" value="<?php echo date('Y-m-d');?>" id="">
           </div>
           <div class="form--item">
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="08:00" id="">
               <span>08:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="08:30" id="">
               <span>08:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="09:00" id="">
               <p>09:00</p>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="09:30" id="">
               <span>09:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="10:00" id="">
               <span>10:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="10:30" id="">
               <span>10:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="11:00" id="">
               <span>11:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="11:30" id="">
               <span>11:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="12:00" id="">
               <span>12:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="12:30" id="">
               <span>12:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="13:00" id="">
               <span>13:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="13:30" id="">
               <span>13:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="14:00" id="">
               <span>14:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="14:30" id="">
               <span>14:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="15:00" id="">
               <span>15:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="15:30" id="">
               <span>15:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="16:00" id="">
               <span>16:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="16:30" id="">
               <span>16:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="17:00" id="">
               <span>17:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="17:30" id="">
               <span>17:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="18:00" id="">
               <span>18:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="18:30" id="">
               <span>18:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="19:00" id="">
               <span>19:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="19:30" id="">
               <span>19:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="20:00" id="">
               <span>20:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="20:30" id="">
               <span>20:30</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="21:00" id="">
               <span>21:00</span>
             </div>
             <div class="form--item-time">
-              <input type="checkbox" name="" id="">
+              <input type="radio" name="book_time[]" value="21:30" id="">
               <span>21:30</span>
             </div>
 
           </div>
           <div class="form--item">
-            <button>Đặt Bàn</button>
+            <input type="hidden" name="id_dat_ban">
+            <input type="submit" value="Đặt bàn" name="btn_book">
           </div>
 
         </form>
