@@ -1,6 +1,7 @@
 const $= document.querySelector.bind(document)
 const $$= document.querySelectorAll.bind(document)
 
+
 const app = {
    // xử lí sự kiện
    handleEvent: function() {
@@ -9,23 +10,23 @@ const app = {
     const itemUser = $('.item-user')
     
     //show user
-    if(itemUser){
-    itemUser.onclick = () =>{
-            const listUser = $('.header__list-user')
-            listUser.classList.toggle('hidden')
+        if(itemUser){
+        itemUser.onclick = () =>{
+                const listUser = $('.header__list-user')
+                listUser.classList.toggle('hidden')
 
-    }
-    }
+        }
+        }
 
-    let show=$$('.navbar__lists-main')
-    for (let i = 0; i < show.length; i++) {
-    const element = show[i];
-    element.addEventListener('click', () => {
-    element.nextSibling.classList.toggle('show')
-    element.firstElementChild.lastElementChild.classList.toggle('item-show-rotate')
-    })
-    
-  }
+        let show=$$('.navbar__lists-main')
+        for (let i = 0; i < show.length; i++) {
+        const element = show[i];
+        element.addEventListener('click', () => {
+        element.nextSibling.classList.toggle('show')
+        element.firstElementChild.lastElementChild.classList.toggle('item-show-rotate')
+        })
+        
+        }
       logoIcon.onclick = function () {
        const container = $('.container')
        const logo = $('.navbar__logo')
@@ -50,6 +51,21 @@ const app = {
 
         
       }
+      const addBtn=$('.add-btn');
+      addBtn.addEventListener('click', () => {
+        swal("Good job!", "You clicked the button!", "success");
+      })
+
+      const iconDelete =$$('.icon--delete')
+      for (let i = 0; i < iconDelete.length; i++) {
+        const element = iconDelete[i];
+        element.addEventListener('click', () => {
+                swal("Good job!", "You clicked the button!", "success");
+                
+        })
+        
+      }
+      
    },
    start : function(){
    this.handleEvent();
