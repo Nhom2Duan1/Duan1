@@ -25,7 +25,7 @@
      </div>
      <div class="btn--add">
         <input type="hidden" name="id_tintuc">
-        <a href="?ctr=news"><input type="submit" name="btn_add" value="Đăng bài" ></a>
+        <input type="submit" name="btn_add" value="Đăng bài" class="add-btn" >
      </div>
      
 

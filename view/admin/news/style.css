@@ -29,6 +29,12 @@
         margin: 20px;
 
 }
+.news__table table{
+        width: 100%;
+}
+.news__table table tbody{
+        text-align: center;
+}
 .news__table th,td{
         border-bottom: 1px solid rgb(207, 206, 206);
 }
