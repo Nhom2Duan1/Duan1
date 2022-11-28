@@ -1,7 +1,7 @@
 <?php
 //Thêm món ăn
-function insert_addmenu($anh_mon,$ten_mon,$gia_mon,$danh_gia_mon,$menu_list){
-  $sql = "insert into mon_an(id_mon,anh_mon,ten_mon,gia_mon,danh_gia_mon,menu_list) values(NULL,'$anh_mon','$ten_mon','$gia_mon','$danh_gia_mon','$menu_list')";
+function insert_addmenu($anh_mon,$ten_mon,$gia_mon,$danh_gia_mon,$mo_ta_mon_an,$menu_list){
+  $sql = "insert into mon_an(id_mon,anh_mon,ten_mon,gia_mon,danh_gia_mon,mo_ta_mon_an,menu_list) values(NULL,'$anh_mon','$ten_mon','$gia_mon','$danh_gia_mon','$mo_ta_mon_an','$menu_list')";
   pdo_execute($sql);
 }
 //load all món ăn
@@ -22,12 +22,12 @@ function fix_menu($id_mon){
   return $fixmenu;
 }
 //CẬP NHẬT MÓN ĂN
-function update_menu($anh_mon,$ten_mon, $gia_mon,$danh_gia_mon,$menu_list,$id_mon){
+function update_menu($anh_mon,$ten_mon,$gia_mon,$danh_gia_mon,$mo_ta_mon_an,$menu_list,$id_mon){
   if($anh_mon!= ""){
-    $sql = "update mon_an set anh_mon='".$anh_mon."',ten_mon = '".$ten_mon."',gia_mon = '".$gia_mon."',danh_gia_mon = '".$danh_gia_mon."',menu_list = '".$menu_list."'where id_mon=".$id_mon;
+    $sql = "update mon_an set anh_mon='".$anh_mon."',ten_mon = '".$ten_mon."',gia_mon = '".$gia_mon."',danh_gia_mon = '".$danh_gia_mon."',mo_ta_mon_an = '".$mo_ta_mon_an."',menu_list = '".$menu_list."'where id_mon=".$id_mon;
   }
   else{
-    $sql = "update mon_an set ten_mon = '".$ten_mon."',gia_mon = '".$gia_mon."',danh_gia_mon = '".$danh_gia_mon."',menu_list = '".$menu_list."'where id_mon=".$id_mon;
+    $sql = "update mon_an set ten_mon = '".$ten_mon."',gia_mon = '".$gia_mon."',danh_gia_mon = '".$danh_gia_mon."',mo_ta_mon_an = '".$mo_ta_mon_an."',menu_list = '".$menu_list."'where id_mon=".$id_mon;
   }
   pdo_execute($sql);
 }
