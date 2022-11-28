@@ -1,0 +1,38 @@
+.content {
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.table_dm {
+    /* box-shadow: 0px 0px 5px 5px grey; */
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+}
+.them_moi{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.them_moi a{
+    background-color: #3399FF ;
+    width: 220px;
+    padding: 6px;
+    border: 1px solid #3399FF ;
+    color: white;
+    border-radius: 5px ;
+}
+.table_dm thead .tr_dm{
+  margin-bottom: 10px;
+}
+.table_dm thead .tr_dm .th_dm{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+  
+}
+.table_dm tbody tr  td{
+    text-align: center;
+    padding-top: 20px;
+}

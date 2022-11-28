@@ -14,6 +14,9 @@
         <link rel="stylesheet" href="../../view/admin/slideShow/style.css">
         <link rel="stylesheet" href="../../view/admin/news/style.css">
         <link rel="stylesheet" href="../../view/admin/style/main.css">
+        <link rel="stylesheet" href="../../view/admin/contact/contact.css">
+        <link rel="stylesheet" href="../../view/admin/tableList/tablelist.css">
+        <link rel="stylesheet" href="../../view/admin/tableList/addm.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -81,7 +84,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href=""><div>Danh sách danh mục bàn</div></a>
+                                                       <a href="?ctr=tableList"><div>Danh sách danh mục bàn</div></a>
                                                </div>
                                                
                                        </a>
@@ -123,7 +126,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href=""><div>Danh sách liên hệ</div></a>
+                                                       <a href="?ctr=contact"><div>Danh sách liên hệ</div></a>
                                                </div>
                                                
                                        </a>
