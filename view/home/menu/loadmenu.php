@@ -40,6 +40,7 @@
       //  var_dump($anh_mon);
       foreach ($list_catemenu as $all_menu) {
         extract($all_menu);
+        $detailMenu = "?ctr=detailMenu&id_mon=".$id_mon;
         // var_dump($all_menu);
         echo '
         <div class="item">
@@ -56,7 +57,7 @@
           </div>
           </div>
           <div class="">
-          <a href="#">
+          <a href="'.$detailMenu.'">
             <div class="info">
               <button class="info_order">Chi tiết</button>
             </div>

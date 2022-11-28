@@ -68,7 +68,7 @@ h6 {
   transition: 0.5s;
 }
 .listMenu ul li:hover {
-  height: 130px;
+  height: 135px;
   background-color: #fffad7;
 }
 
@@ -96,6 +96,9 @@ h6 {
 .container .listMenu ul li a {
   text-decoration: none;
   display: flex;
+  width: 60px;
+  height: 25px;
+  text-align: center;
   justify-content: center;
   opacity: 0.7;
   color: #ffff;

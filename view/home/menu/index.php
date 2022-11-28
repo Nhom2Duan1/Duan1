@@ -37,9 +37,12 @@
       <!-- ĐỔ DỮ LIỆU MÓN ĂN -->
       <?php
        $list_catemenu = loadAll_liscate_menu();
-      //  var_dump($anh_mon);
-      foreach ($list_catemenu as $all_menu) {
-        extract($all_menu);
+       //  var_dump($anh_mon);
+       foreach ($list_catemenu as $all_menu) {
+         extract($all_menu);
+        $detailMenu = "?ctr=detailMenu&id_mon=".$id_mon;
+        // var_dump($id_mon);
+        // var_dump($list_catemenu);
         echo '
         <div class="item">
         <div class="img">
@@ -55,7 +58,7 @@
           </div>
           </div>
           <div class="">
-          <a href="#">
+          <a href="'.$detailMenu.'">
             <div class="info">
               <button class="info_order">Chi tiết</button>
             </div>

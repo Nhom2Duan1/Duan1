@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.ctn_detail{
+  max-width: 1345px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 50px;
+}
+.ctn_detail .box_left{
+  padding: 30px;
+}
+.ctn_detail .box_right{
+  /* padding: 30px 0; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+.box_right .title_right h2{
+  font-size: x-large;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.box_right .title_right .price_right{
+  font-size: large;
+}
+.box_right .title_right .price_right span{
+  font-style: italic;
+}
+.box_right .title_right .review{
+  margin: 10px 0; 
+}
+.box_right .title_right .review i{
+  color: #f49d1a;
+}
+.box_right .title_right .review span{
+  margin-left: 10px;
+  opacity: .8;
+}
+.box_right .infor_right{
+  margin: 30px 0;
+}
+.box_right .infor_right{
+  display:flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.box_right .infor_right img{
+  width: 100px;
+  border-radius: 50%;
+}
