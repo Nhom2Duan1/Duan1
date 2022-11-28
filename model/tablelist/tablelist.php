@@ -1,4 +1,7 @@
 <?php
+
+
+
 function listall_dm(){
     $sql = "select * from loai_ban";
 $list_dm = pdo_query($sql);

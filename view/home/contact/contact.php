@@ -25,11 +25,11 @@
 
                   <form action="" method="post" enctype="multipart/form-data">
                   <div>    
-                    <input type="text" placeholder="tên của bạn..." name="name"> <br> <br>
-                    <input type="text" placeholder="địa chỉ email..." name="email"> <br> <br>
-                    <input type="text" placeholder="số điện thoại..." name="sdt"> <br> <br>
-                    <input type="text" placeholder="mục đích liên hệ ..." name="mucdich"> <br> <br>
-                    <textarea  id="" cols="30" rows="10" placeholder="nội dung chi tiết..." name="noidung" ></textarea>
+                    <input required type="text" placeholder="tên của bạn..." name="name"> <br> <br>
+                    <input  type="text" placeholder="địa chỉ email..." name="email"> <br> <br>
+                    <input required type="text" placeholder="số điện thoại..." name="sdt"> <br> <br>
+                    <input required type="text" placeholder="mục đích liên hệ ..." name="mucdich"> <br> <br>
+                    <textarea required  id="" cols="30" rows="10" placeholder="nội dung chi tiết..." name="noidung" ></textarea>
                   </div>
                   <div class="btn">
                     <input type="submit" name="btn" value="Gửi Liên Hệ">
