@@ -3,7 +3,7 @@
  * Mở kết nối đến CSDL sử dụng PDO
  */
 function pdo_get_connection(){
-    $dburl = "mysql:host=localhost;dbname=nhom2;charset=utf8";
+    $dburl = "mysql:host=localhost;dbname=duan_1_nhom_2;charset=utf8";
     $username = 'root';
     $password = '';
 
@@ -83,7 +83,7 @@ function pdo_query_one($sql){
  * Thực thi câu lệnh sql truy vấn một giá trị
  * @param string $sql câu lệnh sql
  * @param array $args mảng giá trị cung cấp cho các tham số của $sql
- * @return giá trị
+ * @return    
  * @throws PDOException lỗi thực thi câu lệnh
  */
 function pdo_query_value($sql){
