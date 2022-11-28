@@ -31,6 +31,11 @@
           <input type="text" name="danh_gia_mon">
         </div>
         <div class="item_addmenu">
+          <p>Mô tả món ăn</p>
+          <textarea style="border-radius: 5px; border-color: #b2b2b2;" name="mo_ta_mon_an" id="" cols="60"
+            rows="5"></textarea>
+        </div>
+        <div class="item_addmenu">
           <p>Loại món ăn</p>
           <select name="menu_list" id="">
             <?php
