@@ -51,8 +51,8 @@
                                                <i class="fa-solid fa-angle-right icon-show"></i>
                                                
                                         </div>
-                                        <div class="navbar__lists-hidden  " >
-                                                <a href=""><div>Danh sách tài khoản</div></a>
+                                        <div class="navbar__lists-hidden " >
+                                                <a href="?ctr=listacount"><div>Danh sách tài khoản</div></a>
                                                
                                         </div>
                                         
@@ -98,7 +98,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden" >
-                                                       <a href=""><div>Danh sách thực đơn</div></a>
+                                                       <a href="?ctr=addmenu"><div>Danh sách thực đơn</div></a>
                                                </div>
                                                
                                        </a>
@@ -112,7 +112,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href=""><div>Danh sách danh mục món</div></a>
+                                                       <a href="?ctr=cate_menu"><div>Danh sách danh mục món</div></a>
                                                </div>
                                                
                                        </a>

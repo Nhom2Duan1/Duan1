@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TPCG-FOOD</title>
 
- 
-  
+
 </head>
 
 <body>
@@ -23,7 +22,7 @@
         <div class="header__logo">
           <img src="./view/home/hompage/img/logo-removebg.png" alt="" />
         </div>
-
+ 
         <div class="header__menu">
 
           <ul class="list--menu close-menu ">
@@ -36,10 +35,40 @@
             <li class="list--link"><a href="?ctr=menu">Thực đơn</a></li>
             <li class="list--link"><a href="?ctr=news">Tin tức</a></li>
             <li class="list--link"><a href="?ctr=contact">Liên hệ</a></li>
+            <li class="list--link"><a href="#" class="hotline">Hotline:099999999</a></li>
+           <?php 
+            if(isset($_SESSION['ten_tk'])){                  
+           ?> 
+            <li class="list--link"> <a href="?ctr=log_out" style="color: #AAAAAA;">Đăng Xuất</a> </li>
+           <?php } else{
+
+           ?>
             <li class="list--link"><a href="?ctr=signin">Đăng nhập</a></li>
-            <li class="list--link">
-              <a href="controller/admin/admin.php" class="hotline">Hotline:099999999</a>
+           <?php  }?>
+            
+            <li class="list--link"><a href="">
+              <?php
+              if(isset($_SESSION['ten_tk'])){
+                ?>
+                <span> Hello </span> <?php echo $_SESSION['ten_tk'] ['ten_tk'] ?>
+                 
+               <?php }?>
+            </a>
+          </li> 
+          <?php
+       if (isset($_SESSION['ten_tk'])) { 
+           extract($_SESSION['ten_tk']);
+         ?>
+    
+            <?php if($vai_tro == 1){ ?>
+            <li class="list--link" >
+              <a href="controller/admin/admin.php" style="color:#AAAAAA;"  >Đăng nhập admin</a>
             </li>
+            <?php } ?>
+         
+         <?php
+       } 
+     ?>
           </ul>
         </div>
         <div class="search">
