@@ -404,7 +404,7 @@ header {
   color: rgb(157, 243, 52);
 }
 .form--item input[type="text"],
-[type="date"],
+[type="date"],[type="number"],
 select {
   margin: 0 0 16px;
   padding: 10px 12px;
@@ -422,7 +422,7 @@ select {
   gap: 10px;
   color: #f1f1f1;
 }
-.form--item button {
+.form--item input[type="submit"] {
   border-radius: 5px;
   background-color: #f3e385;
   color: #000000;

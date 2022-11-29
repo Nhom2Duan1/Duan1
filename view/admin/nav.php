@@ -12,10 +12,8 @@
       />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../../view/admin/slideShow/style.css">
-        <link rel="stylesheet" href="../../view/admin/style/main.css">
         <link rel="stylesheet" href="../../view/admin/news/style.css">
-        <link rel="stylesheet" href="../../view/admin/introduce/intro.css">
-        <link rel="stylesheet" href="../../view/admin/acount/acc.css">
+        <link rel="stylesheet" href="../../view/admin/style/main.css">
         <link rel="stylesheet" href="../../view/admin/contact/contact.css">
         <link rel="stylesheet" href="../../view/admin/tableList/tablelist.css">
         <link rel="stylesheet" href="../../view/admin/tableList/addm.css">
@@ -70,7 +68,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href="?ctr="><div>Danh sách đặt bàn</div></a>
+                                                       <a href="?ctr=listbook"><div>Danh sách đặt bàn</div></a>
                                                        
                                                </div>
                                                
