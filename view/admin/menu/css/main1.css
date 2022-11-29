@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.container_addmenu{
+  padding: 30px;
+}
+.container_addmenu .title_addmenu{
+  font-size: x-large;
+  font-weight: bold;
+}
+.container_addmenu .form_addmenu{
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0 5px 5px #0000001a;
+}
+.form_addmenu form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 30px;
+}
+.form_addmenu form .item_addmenu p{
+  font-size: large;
+  font-weight: bold;
+}
+.form_addmenu form .item_addmenu input[type=text],select{
+  width: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #B2B2B2;
+}
+.form_addmenu form .btn_submit input{
+    border: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    box-shadow: 0 5px 5px #0000001a;
+    transition: .25s;
+}
+.form_addmenu a{
+  display: inline-block
+}
+.form_addmenu a .listmenu_addmenu{
+  border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 5px 5px #0000001a;
+    transition: .25s;
+}
+.form_addmenu a:hover .listmenu_addmenu{
+  background-color: #182747;
+  color: white;
+}
+.form_addmenu form .btn_submit:hover input{
+  background-color: #182747;
+  color: white;
+}
