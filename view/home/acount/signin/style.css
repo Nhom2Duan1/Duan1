@@ -78,7 +78,7 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
-.boxleft .btn_submit button{
+.boxleft .btn_submit  input{
   padding: 5px 15px;
   border:none;
   background-image: linear-gradient(to left top, #59C1BD,#CFF5E7);

@@ -1,9 +1,9 @@
 let prev = document.querySelector('#prev');
 let next = document.querySelector('#next');
 let image = [
-  "url('../view/home/acount/signup/img/img1.jpg')",
-  "url('../view/home/acount/signup/img/img2.jpg')",
-  "url('../view/home/acount/signup/img/img3.jpg')"
+  "url('./view/home/acount/signup/img/img1.jpg')",
+  "url('./view/home/acount/signup/img/img2.jpg')",
+  "url('./view/home/acount/signup/img/img3.jpg')"
 ];
 let i = 0;
   

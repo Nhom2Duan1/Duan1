@@ -1,40 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Đăng nhập</title>
-  <link rel="stylesheet" href="../view/home/acount/signin/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-</head>
-
-<body>
   <div class="container_Signin">
     <div class="signin">
       <div class="boxleft">
         <div class="image_decor">
-          <img src="../view/home/acount/signin/img/welcome_signin.png" alt="">
+          <img src="./view/home/acount/signin/img/welcome_signin.png" alt="">
         </div>
-        <form action="">
+        <form action="" method="post">
           <p>Họ tên</p>
-          <input type="text" />
-          <p>Email</p>
-          <input type="email" />
+          <input type="text" name="ten_tk"/>
           <p>Mật khẩu</p>
-          <input type="password" />
+          <input type="password" name="pass" />
           <div class="btn_submit">
-            <button>Đăng nhập</button>
+            <input type="submit" name="dangnhap" value="Đăng Nhập">
             <a href="">
               <p>Lấy lại mật khẩu</p>
             </a>
+            <a href="">Cập nhập tài khoản</a>
           </div>
         </form>
+        <h2 class="thongbao_signup">
+        <?php
+             if (isset($thongbao) && ($thongbao!= "")){
+              echo $thongbao;
+             }
+        ?>
+        </h2>
         <div class="suggest_signin">
           <p class="suggest_signin_title">Bạn chưa có tài khoản?</p>
           <a href="?ctr=signup">
-            <p>Đăng kí</p>
+            <p>Đăng kí </p>
+           
           </a>
         </div>
       </div>
@@ -43,6 +38,3 @@
           "></div>
     </div>
   </div>
-</body>
-
-</html>
