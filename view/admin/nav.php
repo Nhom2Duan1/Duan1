@@ -13,6 +13,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../../view/admin/slideShow/style.css">
         <link rel="stylesheet" href="../../view/admin/style/main.css">
+        <link rel="stylesheet" href="../../view/admin/news/style.css">
+        <link rel="stylesheet" href="../../view/admin/introduce/intro.css">
+        <link rel="stylesheet" href="../../view/admin/acount/acc.css">
+        <link rel="stylesheet" href="../../view/admin/contact/contact.css">
+        <link rel="stylesheet" href="../../view/admin/tableList/tablelist.css">
+        <link rel="stylesheet" href="../../view/admin/tableList/addm.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -47,8 +53,8 @@
                                                <i class="fa-solid fa-angle-right icon-show"></i>
                                                
                                         </div>
-                                        <div class="navbar__lists-hidden  " >
-                                                <a href=""><div>Danh sách tài khoản</div></a>
+                                        <div class="navbar__lists-hidden " >
+                                                <a href="?ctr=listacount"><div>Danh sách tài khoản</div></a>
                                                
                                         </div>
                                         
@@ -80,7 +86,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href=""><div>Danh sách danh mục bàn</div></a>
+                                                       <a href="?ctr=tableList"><div>Danh sách danh mục bàn</div></a>
                                                </div>
                                                
                                        </a>
@@ -94,7 +100,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden" >
-                                                       <a href=""><div>Danh sách thực đơn</div></a>
+                                                       <a href="?ctr=addmenu"><div>Danh sách thực đơn</div></a>
                                                </div>
                                                
                                        </a>
@@ -108,7 +114,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href=""><div>Danh sách danh mục món</div></a>
+                                                       <a href="?ctr=cate_menu"><div>Danh sách danh mục món</div></a>
                                                </div>
                                                
                                        </a>
@@ -122,7 +128,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href=""><div>Danh sách liên hệ</div></a>
+                                                       <a href="?ctr=contact"><div>Danh sách liên hệ</div></a>
                                                </div>
                                                
                                        </a>
@@ -150,7 +156,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href=""><div>Danh sách giới thiệu</div></a>
+                                                       <a href="?ctr=introduce"><div>Danh sách giới thiệu</div></a>
                                                </div>
                                                
                                        </a>
@@ -164,7 +170,7 @@
                                                       
                                                </div>
                                                <div class="navbar__lists-hidden  " >
-                                                       <a href=""><div>Danh sách tin tức</div></a>
+                                                       <a href="?ctr=news"><div>Danh sách tin tức</div></a>
                                                </div>
                                                
                                        </a>
