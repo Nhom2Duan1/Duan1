@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.container_menulist{
+  padding: 30px;
+}
+.container_menulist .title{
+  font-size: x-large ;
+  font-weight: bold;
+}
+.container_menulist .form_add{
+  background-color: #fff;
+  margin: 30px 0;
+  padding: 30px;
+  box-shadow: 0 5px 5px #0000001a;  
+}.container_menulist .form_add form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 30px;
+}
+.container_menulist .form_add form .item_menuList p{
+  font-size: large;
+  font-weight: bold;
+}
+.container_menulist .form_add form .item_menuList  input[type=text]{
+  width: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #B2B2B2;
+}
+form .btn_submit{
+  display: flex;
+  column-gap: 20px;
+}
+form .btn_submit .submit{
+    border: none;
+    padding: 5px 20px;
+    box-shadow: 0 5px 5px #0000001a;
+    transition: .25s;
+}
+form .btn_submit .submit:hover{
+  background-color: #182747;
+  color: white;
+}
+.form_add a:hover button{
+  background-color: #182747;
+  color: white;
+}
+.form_add a{
+  display: inline-block;
+}
+.form_add a button{
+    border: none;
+    transition: .25s;
+    padding: 5px 20px;
+    margin-top: 30px;
+    box-shadow: 0 5px 5px #0000001a;
+}

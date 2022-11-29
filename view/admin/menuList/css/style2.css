@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.container_menulist {
+  padding: 30px;
+  /* height: 100vh; */
+}
+.container_menulist .title {
+  font-size: x-large;
+  font-weight: bold;
+}
+.container_menulist .listcate_menu {
+  background-color: #fff;
+  margin: 30px 0;
+  height: 600px;
+  overflow-y: scroll;
+  box-shadow: 0 5px 5px #0000001a;
+}
+.listcate_menu table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.listcate_menu table thead {
+  background-color: #474e68;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  color: white;
+}
+.listcate_menu table tr th,
+table tr td {
+  padding: 10px 0;
+}
+.listcate_menu table tbody tr td {
+  border-bottom: 1px solid #ddd;
+}
+table tbody tr .fix .fix_btn {
+  padding: 5px 15px;
+  color: #dc3535;
+  border: 1px solid #ddd;
+  transition: 0.25s;
+}
+table tbody tr .fix:hover .fix_btn {
+  background-color: #182747;
+  color: white;
+}
+table tbody tr .dele .dele_btn {
+  padding: 5px 15px;
+  border: 1px solid #ddd;
+  color: #dc3535;
+  transition: 0.25s;
+}
+table tbody tr .dele:hover .dele_btn {
+  background-color: #182747;
+  color: white;
+}
+span{
+  display: block;
+}
+a {
+  display: inline;
+}
+.container_menulist a .add_new {
+  border: none;
+  cursor: pointer;
+  padding: 5px 15px;
+  margin-top: 10px;
+  box-shadow: 0 5px 5px #0000001a;
+  transition: 0.25s;
+}
+.container_menulist a:hover .add_new {
+  background-color: #182747;
+  color: white;
+}
