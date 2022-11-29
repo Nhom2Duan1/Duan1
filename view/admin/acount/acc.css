@@ -1,0 +1,26 @@
+.container-update{
+    padding: 20px;
+    margin-left: 50px;
+}
+.title-update{
+    font-size: 20px;
+    
+} 
+.title-update h2{
+    font-weight: bold;
+}
+.content-update{
+    width: 100%;
+}
+.container-update form{
+    height: 100px;
+    width: 100%;
+}
+.click input{
+    margin-top: 20px;
+    background-color: red;
+    color: aliceblue;
+}
+.click input:hover{
+    background-color: black;
+}
